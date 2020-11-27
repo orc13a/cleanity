@@ -1,0 +1,42 @@
+.navContainer {
+    padding: 25px;
+}
+
+.navContainer div {
+    display: inline-block;
+}
+
+.compName {
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.compName > a {
+    color: black;
+    text-decoration: none;
+}
+
+.navBtnsContainer {
+    margin-left: 25px;
+}
+
+.navbtn {
+    position: relative;
+    bottom: 5px;
+    font-size: 18px;
+    margin: 0px 25px 0px 26px;
+    padding-bottom: 10px;
+}
+
+.navbtn:hover {
+    border-bottom: 2px solid black;
+}
+
+.active {
+    border-bottom: 2px solid black;
+}
+
+.navbtn > a {
+    color: black;
+    text-decoration: none;
+}
