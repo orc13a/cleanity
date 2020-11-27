@@ -1,5 +1,6 @@
 .navContainer {
     padding: 25px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navContainer div {
@@ -39,4 +40,24 @@
 .navbtn > a {
     color: black;
     text-decoration: none;
+}
+
+.languageSelectContainer {
+    text-align: right;
+    float: right;
+    position: relative;
+    top: 5px;
+}
+
+.languageSelectContainer > span {
+    cursor: pointer;
+    margin: 5px;
+}
+
+.languageSelectContainer > span:hover {
+    text-decoration: underline;
+}
+
+.langSep {
+    cursor: default !important;
 }
