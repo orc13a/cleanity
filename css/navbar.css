@@ -1,63 +1,108 @@
-.navContainer {
-    padding: 25px;
-    font-family: 'Montserrat', sans-serif;
+@media screen and (min-width: 915px) {
+    .navContainer {
+        padding: 25px;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 50px;
+    }
+    
+    .mobileNavBurger, .mobileNavBtnContainer {
+        display: none !important;
+    }
+
+    .navContainer div {
+        display: inline-block;
+    }
+    
+    .compName {
+        font-size: 32px;
+        letter-spacing: 2px;
+    }
+    
+    .compName > a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .navBtnsContainer {
+        margin-left: 25px;
+    }
+    
+    .navbtn {
+        position: relative;
+        bottom: 5px;
+        font-size: 18px;
+        margin: 0px 25px 0px 26px;
+        padding-bottom: 10px;
+    }
+    
+    .navbtn:hover {
+        border-bottom: 2px solid black;
+    }
+    
+    .active {
+        border-bottom: 2px solid black;
+    }
+    
+    .navbtn > a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .languageSelectContainer {
+        text-align: right;
+        float: right;
+        position: relative;
+        top: 10px;
+    }
+    
+    .languageSelectContainer > span {
+        cursor: pointer;
+        margin: 5px;
+    }
+    
+    .languageSelectContainer > span:hover {
+        text-decoration: underline;
+    }
+    
+    .langSep {
+        cursor: default !important;
+        text-decoration: none !important;
+    }
 }
 
-.navContainer div {
-    display: inline-block;
-}
 
-.compName {
-    font-size: 32px;
-    letter-spacing: 2px;
-}
+/* Styles for mobil */
 
-.compName > a {
-    color: black;
-    text-decoration: none;
-}
+@media screen and (max-width: 915px) {
+    .navContainer {
+        padding: 25px;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 50px;
+    }
 
-.navBtnsContainer {
-    margin-left: 25px;
-}
+    .compName {
+        font-size: 26px;
+        display: inline-block;
+    }
 
-.navbtn {
-    position: relative;
-    bottom: 5px;
-    font-size: 18px;
-    margin: 0px 25px 0px 26px;
-    padding-bottom: 10px;
-}
+    .compName > a {
+        color: black;
+        text-decoration: none;
+    }
 
-.navbtn:hover {
-    border-bottom: 2px solid black;
-}
+    .navBtnsContainer {
+        display: none;
+    }
 
-.active {
-    border-bottom: 2px solid black;
-}
+    .languageSelectContainer {
+        display: none;
+    }
 
-.navbtn > a {
-    color: black;
-    text-decoration: none;
-}
-
-.languageSelectContainer {
-    text-align: right;
-    float: right;
-    position: relative;
-    top: 5px;
-}
-
-.languageSelectContainer > span {
-    cursor: pointer;
-    margin: 5px;
-}
-
-.languageSelectContainer > span:hover {
-    text-decoration: underline;
-}
-
-.langSep {
-    cursor: default !important;
+    .mobileNavBurger {
+        display: inline-block;
+        float: right;
+        position: relative;
+        top: 1px;
+        cursor: pointer;
+    }
 }
