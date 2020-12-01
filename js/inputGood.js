@@ -11,7 +11,7 @@ function inputGood(elt, svgGood, svgBad) {
             document.getElementById(svgBad).style.display = 'block';
         }
     } else {
-        if(elt.value != ' ' && elt.value != '' && elt.value.match(/^[A-Za-z]+$/) && elt.value.length > 2) {
+        if(elt.value != '' && elt.value != ' ' && elt.value.length >= 2 && elt.value.match(/^[A-Za-z ]+$/)) {
             document.getElementById(svgBad).style.display = 'none';
             document.getElementById(svgGood).style.display = 'block';
         } else {
