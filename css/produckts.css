@@ -46,5 +46,47 @@
 /* Styles for mobil */
 
 @media screen and (max-width: 915px) {
+    .link-tag {
+        position: absolute;
+        top: 0;
+        right: 0; 
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .productContainer {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+        box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.08);
+        border-radius: 10px;
+        position: relative;
+    }
 
+    .productContainer > div {
+        display: inline-block;
+    }
+
+    .producktTitle {
+        padding: 25px 0px 15px 0px;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .produktThumpnail {
+        padding: 10px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .produktThumpnail img {
+        height: auto;
+        width: 280px;
+        border-radius: 10px;
+        vertical-align: middle;
+    }
 }
