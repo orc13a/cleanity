@@ -1,75 +1,157 @@
-.contactFormContainer {
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 150px;
-    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.08);
-    padding: 12.5px 25px 25px 25px;
-    border-radius: 10px;
+@media screen and (min-width: 915px) {
+    .contactFormContainer {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 150px;
+        box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.08);
+        padding: 12.5px 25px 25px 25px;
+        border-radius: 10px;
+    }
+
+    .inputLabelContainer {
+        margin: 12.5px 0px;
+    }
+
+    label {
+        margin-left: 4px;
+    }
+
+    .inputContainer {
+        border: 2px solid lightgray;
+        border-radius: 5px;
+        padding: 2px 10px 2px 10px;
+        margin-top: 5px;
+    }
+
+    .inputDiv {
+        display: inline-block;
+    }
+
+    .inputDiv > input {
+        width: 440px;
+        border: none;
+        outline: none;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    textarea {
+        width: 455px;
+        max-width: 455px;
+        padding: 10px 4px;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        min-height: 250px;
+    }
+
+    .checkDiv {
+        display: inline-block;
+        width: 25px;
+        text-align: center;
+        float: right;
+    }
+
+    .checkDiv > svg {
+        position: relative;
+        top: 10px;
+    }
+
+    .contactSendBtnContainer {
+        text-align: right;
+    }
+
+    .contactSendBtnContainer > button {
+        padding: 10px 0px;
+        width: 100px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .contactSendBtnContainer > button:hover {
+        box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.08);
+    }
 }
 
-.inputLabelContainer {
-    margin: 12.5px 0px;
-}
+/* Styles for mobil */
 
-label {
-    margin-left: 4px;
-}
+@media screen and (max-width: 915px) {
+    .contactFormContainer {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 150px;
+        box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.08);
+        padding: 12.5px 25px 25px 25px;
+        border-radius: 10px;
+    }
 
-.inputContainer {
-    border: 2px solid lightgray;
-    border-radius: 5px;
-    padding: 2px 10px 2px 10px;
-    margin-top: 5px;
-}
+    .inputLabelContainer {
+        margin: 12.5px 0px;
+    }
 
-.inputDiv {
-    display: inline-block;
-}
+    label {
+        margin-left: 4px;
+    }
 
-.inputDiv > input {
-    width: 440px;
-    border: none;
-    outline: none;
-    height: 35px;
-    font-size: 16px;
-}
+    .inputContainer {
+        border: 2px solid lightgray;
+        border-radius: 5px;
+        padding: 2px 10px 2px 10px;
+        margin-top: 5px;
+    }
 
-textarea {
-    width: 455px;
-    max-width: 455px;
-    padding: 10px 4px;
-    font-size: 16px;
-    border: none;
-    outline: none;
-    min-height: 250px;
-}
+    .inputDiv {
+        display: inline-block;
+    }
 
-.checkDiv {
-    display: inline-block;
-    width: 25px;
-    text-align: center;
-    float: right;
-}
+    .inputDiv > input {
+        width: 240px;
+        border: none;
+        outline: none;
+        height: 35px;
+        font-size: 16px;
+    }
 
-.checkDiv > svg {
-    position: relative;
-    top: 10px;
-}
+    textarea {
+        width: 255px;
+        max-width: 455px;
+        padding: 10px 4px;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        min-height: 250px;
+    }
 
-.contactSendBtnContainer {
-    text-align: right;
-}
+    .checkDiv {
+        display: inline-block;
+        width: 25px;
+        text-align: center;
+        float: right;
+    }
 
-.contactSendBtnContainer > button {
-    padding: 10px 0px;
-    width: 100px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
+    .checkDiv > svg {
+        position: relative;
+        top: 10px;
+    }
 
-.contactSendBtnContainer > button:hover {
-    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.08);
+    .contactSendBtnContainer {
+        text-align: right;
+    }
+
+    .contactSendBtnContainer > button {
+        padding: 10px 0px;
+        width: 100px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .contactSendBtnContainer > button:hover {
+        box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.08);
+    }
 }
